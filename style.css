@@ -1,0 +1,83 @@
+/*body et ses retification*/
+body {
+
+    background-color: rgba(136, 236, 223, 0.752);
+    font-family: "Century Gothic";
+    text-align: left;
+    line-height: 20px;
+
+}
+
+/*h et ses retification*/
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    text-transform: capitalize;
+    text-shadow: -5px 5px 5px rgb(0, 136, 255);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-weight: 500;
+    font-size: x-large;
+
+}
+
+h2 {
+    text-transform: lowercase;
+    text-align: left;
+    color: rgba(238, 16, 231, 0.776);
+    font-size: medium;
+
+    font-weight: 600;
+}
+
+/*table et ses retification*/
+table {
+    background-color: rgb(171, 47, 223);
+    color: rgb(24, 239, 217);
+    font-size: 4mm;
+    font-weight: 200;
+}
+
+/*les reste et  ses retification*/
+td {
+    border: 2px solid rgb(10, 207, 225);
+}
+
+/*.none {
+    text-decoration: none;
+}*/
+#p {
+    text-decoration: overline;
+    text-align: right;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#div1 {
+    background-color: rgb(244, 167, 89);
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border: 10px blueviolet;
+    border-style: groove;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: -20px 20px 20px ;
+}
+
+.div2 {
+    background-color: rgb(21, 179, 118);
+    height: aoto;
+    width: auto;
+    border-width: auto;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px rgb(46, 37, 46);
+
+}
+.p1{
+    display: inline;
+    border: 2px solide black;
+}

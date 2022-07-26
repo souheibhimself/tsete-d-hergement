@@ -1,0 +1,37 @@
+liste ordonne :
+<ol> 
+
+<li></li> 1
+<li></li> 2
+
+</ol>
+
+
+liste non-ordonne :
+<ul> 
+
+<li></li> 1
+<li></li> 2
+
+</ul>
+
+p : pour un paragraph 
+h : pour le titre
+ 
+ 
+ lie deux page :
+ <a href="arborecense" alt="le mot afficher dans le browser " > 
+ 
+ 
+ srtang : en gras
+ em : en italic 
+ mark : marke une partie du paragraph
+ 
+ 
+ 
+  
+ faire un ancre dans une page  a un endrois precis :
+ <a href="#nom de ton ancre ">text clicable</a>
+ <h2 id="nom de ton ancre > point d'arrive <h2> 
+ 
+ faire un ancre dans un text :
