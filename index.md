@@ -1,37 +1,120 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="fr">
 
-You can use the [editor on GitHub](https://github.com/souheibhimself/tsete-d-hergement/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <meta charset="UTF-8">
+  <title>Mon 1er recaputilatif Alhmd</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+  <div id="div1">
 
-### Markdown
+    <h1 id="haut">Un ancre guideant vers le bas </h1>
+    <a class="none" href="#bas">lien ver le bas</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <h1 id="retour">insere une image </h1>
 
-```markdown
-Syntax highlighted code block
+    <img src="/" alt="une image de la route " width="500" height="300">
 
-# Header 1
-## Header 2
-### Header 3
+    <h1>faire deux liste une ordonne et l'autre non-ordonner </h1>
+    <div class="div2">
+      <h2>ul</h2>
+      <ul>
+        <li>element 1</li>
+        <li>element 2</li>
+        <li>element 3</li>
+        <li>element 4</li>
+      </ul>
+      <h2>ol</h2>
+      <ol>
+        <li>element 1</li>
+        <li>element 2</li>
+        <li>element 3</li>
+        <li>element 4</li>
 
-- Bulleted
-- List
+      </ol>
+    </div>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+    <h1>Faire une compinaison de liste ordonne et non-ordonne</h1>
+    <ul>
+      <li>element 1 <br>
+        <ol>
+          <li>element 1</li>
+          <li>element 2</li>
+          <li>element 3</li>
+          <li>element 4</li>
 
-[Link](url) and ![Image](src)
-```
+        </ol>
+      </li>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+      <li>element 2 <br>
+        <ol>
+          <li>element 1</li>
+          <li>element 2</li>
 
-### Jekyll Themes
+        </ol>
+      </li>
+      <li>element 3 <br>
+        <ol>
+          <li>element 1</li>
+          <li>element 2</li>
+          <li>element 3</li>
+          <li>element 4</li>
+          <li>element 5</li>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/souheibhimself/tsete-d-hergement/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        </ol>
+      </li>
 
-### Support or Contact
+    </ul>
+    <h1>Envoi d'un mail </h1>
+    <p class="none">M'envoyer un <a class="none" href="mailto:sou9hous@gmail.com"> mail </a> </p>
+    <h1> Faire un telechargement </h1>
+    <p>telecharge <a class="none" href="/exo_du_vaccance/Mes_recap/رواية_انتيخريستوس_2_PDF_-_أحمد_خالد_مصطفى.pdf">Anti-christos</a></p>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+
+    <h1 id="bas">faire la liaison de deux page </h1>
+    <a href="/exo_du_vaccance/Mes_recap/pageDEliaisonDureacapN°1.html" class="none">lien de la page de liaison</a> <br>
+    <h1>Ancre guideant vers le haut</h1>
+    <a href="#haut" class="none">lien en haut </a>
+    <h1>faire un tableaux de 4l et 4c</h1>
+    <table>
+      <tr>
+        <td>Plat</td>
+        <td>Prix</td>
+        <td>Desert</td>
+        <td>Prix</td>
+
+      </tr>
+      <tr>
+        <td>1er plat </td>
+        <td>à 50$</td>
+        <td>1er desert </td>
+        <td>à 500$</td>
+      </tr>
+      <tr>
+        <td>2em plat </td>
+        <td>à 70$</td>
+        <td>2em desert </td>
+        <td>à 460$</td>
+      </tr>
+      <tr>
+        <td>3em plat </td>
+        <td>à 560$</td>
+        <td>3em desert </td>
+        <td>à 700$</td>
+      </tr>
+
+    </table>
+    <p id="p">voici mon premier recapitilafit de mes premiers chap </p>
+    <p class="p1">premier paragraph </p>
+    <p class="p1">premier paragraph </p>
+
+  </div>
+
+</body>
+
+</html>
